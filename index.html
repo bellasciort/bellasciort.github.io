@@ -2,36 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Isabella Sciortino | Portfolio</title>
   <style>
     body {
-      background-color: white;
-      color: black;
+      margin: 0;
       font-family: Arial, sans-serif;
-      margin: 40px;
+      background-color: #1a1a1a;
+      color: white;
+      display: flex;
     }
-    h1 {
-      color: lightblue;
-      font-size: 3em;
-    }
-    h2 {
-      font-size: 1.5em;
-      margin-top: -10px;
-      color: #333;
-    }
-    a {
-      color: black;
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <h1>Isabella Sciortino</h1>
-  <h2>Portfolio Website</h2>
 
-  <p>Welcome to my portfolio site. Here's where you'll find my work, resume, and projects.</p>
+    /* Sidebar */
+    .sidebar {
+      width: 100px;
+      background-color: #2a2a2a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+      position: fixed;
+      height: 100vh;
+    }
 
-  <p><a href="your-resume-link.pdf" target="_blank">View My Resume</a></p>
-</body>
-</html>
+    .sidebar img.logo {
+      width: 8
